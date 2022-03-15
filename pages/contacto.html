@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>De La Zorra - Prendas unicas pintadas a mano</title>
+    <link rel="shortcut icon" href="../img/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+</head>
+<body>
+    <header>
+        <nav class="barra">
+            <img src="../img/logo/dela.jpg" class="logoBarra" alt="de la zorra logo">
+            <ul class="listaBarra" id="listaBarra">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="entregas.html">Entregas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+            <div class="menuBarra" id="menuBarra">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+	<section class="contacto">
+    	<h1 class="tituloContacto">Contactanos</h1>
+		<section class="seccionContacto">
+				<form class="datosContacto">
+					<label for="Nombre">Nombre</label>
+					<input type="text" id="Nombre" name="Nombre" placeholder="Nombre"> 
+					<br/>
+					<label for="Apellido">Apellido</label>
+					<input type="text" id="Apellido" name="Apellido" placeholder="Apellido">
+					<br/>
+					<label for="edad">Edad</label>
+					<input type="number" placeholder="Edad">
+					<br/>
+					<label for="Estado Civil">Estado Civil</label>
+					<select name="Estado Civil" id="Estado Civil">
+						<option value="Soltero/a">Soltero/a</option>
+						<option value="Casado/a">Casado/a</option>
+						<option value="Prefiero no decirlo">Prefiero no decirlo</option>
+					</select>	
+					<br/>
+					<label for="Correo">Correo electronico</label>
+					<input type="email" name="Correo" placeholder="nombre@ejemplo.com">
+					<br/>
+					<label for="Newsletter">Newsletter</label>
+					<input type="checkbox" name="Newsletter">
+					<br/>
+					<div><p>Nos conocias?</p>
+						<div>Si
+							<input type="radio" name="conocias" value="Si">
+						</div>	
+						<div>No
+							<input type="radio" name="conocias" value="No">
+						</div>	
+					</div>
+					<label for="Comentario">Comentario
+						<br/>
+						<textarea name="Comentario" id="Comentario" cols="30" rows="10" placeholder="Comentario"></textarea>
+					</label>
+					<input type="submit" value="Enviar">
+					<input type="reset" value="Borrar">
+				</form>
+		</section>
+	</section>
+    <footer class="foot">
+		<!--Suscripcion al Newsletter-->
+		<div class="newsFoot">
+			<h3>Newsletter</h3> 
+			<form>
+				<label for="email">Se la primera en enterarte de las novedades.
+				</label>
+				<br>
+				<br>
+				<input type="email" id="email" name="email" placeholder="Email"/>
+				<input type="submit" value="Enviar">
+				<br>
+				<br>
+			</form>
+		</div>
+		<!--Acesso a Sobre nosotros-->
+		<div class="aboutFoot">
+			<h3>Sobre DeLaZorra</h3>
+			<p>Conoce acerca de nosotros <a href="nosotros.html">aca</a></p>
+		</div>
+		<!--Redes sociales-->
+		<div class="followFoot">
+			<h3>Seguinos en</h3>
+            <div class="redesFoot">
+			<a href="https://www.facebook.com/delazorraok" target="_blank">
+				<img  id="facebook" src="../img/icons/facebook.png">
+			</a>
+
+			<a href="https://www.instagram.com/delazorraok" target="_blank">
+				<img id="instagram" src="../img/icons/instagram.png">
+			</a>
+            </div>
+		</div>
+		<!--Volver arriba-->
+		<div class="upFoot">
+			<a href="contacto.html">
+				<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+					<circle cx="12" cy="12" r="9" />
+					<line x1="12" y1="8" x2="8" y2="12" />
+					<line x1="12" y1="8" x2="12" y2="16" />
+					<line x1="16" y1="12" x2="12" y2="8" />
+			  	</svg>
+			</a>
+		</div>
+	</footer>
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
