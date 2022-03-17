@@ -1,167 +1,71 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De La Zorra - Prendas unicas pintadas a mano</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../img/favicon/favicon-32x32.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-</head>
-<body>
-    <header>
-        <nav class="barra">
-            <img src="../img/logo/dela.jpg" class="logoBarra" alt="de la zorra logo">
-            <ul class="listaBarra" id="listaBarra">
-                <li><a href="../index.html">Inicio</a></li>
-                <li><a href="productos.html">Productos</a></li>
-                <li><a href="nosotros.html">Nosotros</a></li>
-                <li><a href="entregas.html">Entregas</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-            <div class="menuBarra" id="menuBarra">
-                <i class="fas fa-bars"></i>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>De La Zorra - Prendas unicas pintadas a mano</title>
+  </head>
+  <body>
+      <header class="container-fluid bg-dark d-flex justify-content-center">
+        <p class="text-light mb-0">ENTREGA INMEDIATA EN TODO EL PAIS⚡ Prendas unicas pintadas a mano.Talles del S al XXL ♀♂ Iguales a NADIE 🔥 Since 2014</p>
+      </header>
+      <!--Inicio el Nav-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" id="menu">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">
+                <img src="../img/logo/dela.png" alt="logo de la zorra" class="w-25">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Productos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="musculosas.html">Musculosas</a></li>
+                        <li><a class="dropdown-item" href="remeras.html">Remeras</a></li>
+                        <li><a class="dropdown-item" href="camisas.html">Camisas</a></li>
+                        <li><a class="dropdown-item" href="camperas.html">Camperas</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Ver todo</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="entregas.html">Entregas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contacto.html">Contactanos</a>
+                </li>
+                </ul>
+            </div>
             </div>
         </nav>
-    </header>
-	<main >
-		<h1 class="tituloRopa">Nuestros productos:</h1>
-		<section>
-			<div class="subtituloRopa">
-				<h3>Musculosas</h3>
-			</div>
-			<div class="ropa">
-				<img src="../img/musculosas/aguila1.jpg" alt="musculosa aguila">
-				<img src="../img/musculosas/alien1.jpg" alt="musculosa alien">
-				<img src="../img/musculosas/chicas1.jpg" alt="musculosa chicas">
-				<img src="../img/musculosas/dlz1.jpg" alt="musculosa dlz">
-				<img src="../img/musculosas/emoji1.jpg" alt="musculosa emoji">
-				<img src="../img/musculosas/heart1.jpg" alt="musculosa heart">
-			</div>
-		</section>
-		<section>
-			<div class="subtituloRopa">
-				<h3>Remeras</h3>
-			</div>
-			<div class="ropa">
-				<img src="../img/remeras/frida1.jpg" alt="remera frida">
-				<img src="../img/remeras/fridanegra1.jpg" alt="remera frida negra">
-				<img src="../img/remeras/kalaca1.jpg" alt="remera kalaca">
-				<img src="../img/remeras/kalacanegra1.jpg" alt="remera kalaca negra">
-				<img src="../img/remeras/rosa1.jpg" alt="remera rosa">
-				<img src="../img/remeras/rosanegra1.jpg" alt="remera rosa negra">
-			</div>
-		</section>
-		<section>
-			<div class="subtituloRopa">
-				<h3>Camisas</h3>
-			</div>
-			<div class="ropa">
-				<img src="../img/camisas/0004.jpg" alt="camisa rolling">
-				<img src="../img/camisas/002.jpg" alt="camisa benito">
-				<img src="../img/camisas/003b.jpg" alt="camisa rosa">
-				<img src="../img/camisas/42.jpg" alt="camisa aguila">
-				<img src="../img/camisas/camisa virgen.jpg" alt="camisa virgen">
-				<img src="../img/camisas/IMG_20191201_204824_347.jpg" alt="camisa lengua">
-			</div>
-		</section>
-		<section>
-			<div class="subtituloRopa">				
-				<h3>Camperas</h3>
-			</div>
-				<div class="ropa">
-					<img src="../img/camperas/campera corazon.jpg" alt="campera corazon">
-					<img src="../img/camperas/campera frida.jpg" alt="campera frida">
-					<img src="../img/camperas/campera kill.jpg" alt="campera kill">
-					<img src="../img/camperas/campera paint.jpeg" alt="campera paint">
-					<img src="../img/camperas/campera redondos.jpg" alt="campera redondos">
-					<img src="../img/camperas/IMG_20191123_202640_611.jpg" alt="campera fre">
-				</div>
-	
-		</section>
-	</main>
-	<br>
-	<section class="infomedidas">
-		<!--Informacion adiccional sobre las prendas-->
-		<div>
-			<p>Estas son las medidas x talle para que puedas compararlas con las de alguna prenda que ya tengas,
-			la medida que indicamos como SISA es el ancho tomado con la camisa/campera cerrada de axila a axila.</p>
-		</div>
-		<!--Inicio de tabla de talles-->
-		<table border="1" cellpadding="1" cellspacing="1">
-			<tbody>
-				<tr>
-					<th>Talle S</th>
-					<th>Talle M</th>
-					<th>Talle L</th>
-					<th>Talle XL</th>
-					<th>Talle XL</th>
-				</tr>
-				<tr>
-					<td>SISA 47cm</td>
-					<td>SISA 49cm</td>
-					<td>SISA 51cm</td>
-					<td>SISA 53cm</td>
-					<td>SISA 60cm</td>
-				</tr>
-				<tr>
-					<td>Largo 52cm</td>
-					<td>Largo 54cm</td>
-					<td>Largo 56cm</td>
-					<td>Largo 58cm</td>
-					<td>Largo 60cm</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
-    
-    <footer class="foot">
-		<!--Suscripcion al Newsletter-->
-		<div class="newsFoot">
-			<h3>Newsletter</h3> 
-			<form>
-				<label for="email">Se la primera en enterarte de las novedades.
-				</label>
-				<br>
-				<br>
-				<input type="email" id="email" name="email" placeholder="Email"/>
-				<input type="submit" value="Enviar">
-				<br>
-				<br>
-			</form>
-		</div>
-		<!--Acesso a Sobre nosotros-->
-		<div class="aboutFoot">
-			<h3>Sobre DeLaZorra</h3>
-			<p>Conoce acerca de nosotros <a href="nosotros.html">aca</a></p>
-		</div>
-		<!--Redes sociales-->
-		<div class="followFoot">
-			<h3>Seguinos en</h3>
-            <div class="redesFoot">
-			<a href="https://www.facebook.com/delazorraok" target="_blank">
-				<img  id="facebook" src="../img/icons/facebook.png">
-			</a>
-
-			<a href="https://www.instagram.com/delazorraok" target="_blank">
-				<img id="instagram" src="../img/icons/instagram.png">
-			</a>
-            </div>
-		</div>
-		<!--Volver arriba-->
-		<div class="upFoot">
-			<a href="productos.html">
-				<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="68" height="68" viewBox="0 0 24 24" stroke-width="2" stroke="#000000" fill="none" stroke-linecap="round" stroke-linejoin="round">
-					<path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-					<circle cx="12" cy="12" r="9" />
-					<line x1="12" y1="8" x2="8" y2="12" />
-					<line x1="12" y1="8" x2="12" y2="16" />
-					<line x1="16" y1="12" x2="12" y2="8" />
-			  	</svg>
-			</a>
-		</div>
-	</footer>
-    <script src="../js/scripts.js"></script>
-</body>
+      <!--Final del NavBar-->
+     
+      <!--Inicio del footer-->
+      <footer class="w-100 d-flex align-items justify-content-center flex-wrap">
+        <div id="iconos">
+            <a href="https://www.instagram.com/delazorraok" target="_blank"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.facebook.com/delazorraok" target="_blank"><i class="bi bi-facebook"></i></a>
+            <a href="#" target="_blank"><i class="bi bi-whatsapp"></i></a>
+         </div>
+          <p class="fs-5 px-3 pt-3">®2022 De la Zorra. Todos los derechos reservados.</p>
+      </footer>
+      <!--Final del footer-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">        
+    </script>
+  </body>
 </html>
