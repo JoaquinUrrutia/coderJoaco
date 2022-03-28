@@ -8,6 +8,7 @@
   <link rel="shortcut icon" href="img/favicon/favicon-32x32.png">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
   <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
   <title>De La Zorra - Prendas unicas pintadas a mano</title>
 </head>
@@ -30,7 +31,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <ul class="menuNav navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
             <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
           </li>
@@ -102,19 +103,32 @@
     <section class="py-3">
       <div class="container-fluid">
         <h1 class="fw-bold text-center" id="tituloAnimado">Lo mas Buscado 🔥</h1>
-        <div class="row">
-          <article class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 fotos">
+        <div class="row" data-aos="fade-up"
+        data-aos-duration="3000" >
+          <figure class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 subtituloFotos">
             <img src="img/lomasbuscado/camisarosa.jpg" alt="camisa rosa y ojo" class="w-100 img-thumbnail">
-          </article>
-          <article class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 fotos">
+            <figcaption>
+              <h2>Camisa rosa</h2>
+            </figcaption>
+          </figure>
+          <figure class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 subtituloFotos">
             <img src="img/lomasbuscado/camperawild.jpg" alt="campera wild" class="w-100 img-thumbnail">
-          </article>
-          <article class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 fotos">
+            <figcaption>
+              <h2>Campera Wild</h2>
+            </figcaption>
+          </figure>
+          <figure class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 subtituloFotos">
             <img src="img/lomasbuscado/camperapaint.jpg" alt="campera paint" class="w-100 img-thumbnail">
-          </article>
-          <article class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 fotos">
+            <figcaption>
+              <h2>Campera Paint</h2>
+            </figcaption>
+          </figure>
+          <figure class="col-sm-6 col-md-6 col-lg-3 pb-sm-3 subtituloFotos">
             <img src="img/lomasbuscado/rosa2.jpg" alt="remera rosa" class="w-100 img-thumbnail">
-          </article>
+            <figcaption>
+              <h2>Remera Rosa</h2>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
@@ -168,6 +182,10 @@
   </footer>
   <!--Cierre del footer-->
   <script src="js/bootstrap.min.js">
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
   </script>
 </body>
 
