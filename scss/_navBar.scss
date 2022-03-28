@@ -1,0 +1,35 @@
+/*Header*/
+
+
+#header p{
+    font-size: 0.7em;
+}
+
+/*Menu*/
+
+#menu a{
+    font-size: 15px;
+    color: $mainColor;
+}
+
+/*menu navbar*/
+
+.menuNav a {
+    position: relative; 
+    ::before {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: $w-100;
+      height: 2px;
+      background: linear-gradient(to right, #000000, #403c3f, #ffffff);
+      z-index: 1;
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.5s ease-in-out;
+    }
+    &:hover::before {
+      transform: scaleX(1);
+    }
+}
