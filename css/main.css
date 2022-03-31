@@ -27,8 +27,10 @@ body {
     opacity: 1; } }
 
 /*Header*/
-.header p {
-  font-size: 0.7em; }
+.header {
+  background-color: #0D0000; }
+  .header p {
+    font-size: 0.7em; }
 
 /*menu navbar*/
 .menuNav a {
@@ -88,15 +90,16 @@ body {
     font-weight: 800;
     opacity: 0;
     transition: opacity 0.35s;
-    color: black;
+    color: white;
     text-align: center;
+    text-shadow: 2px 2px black;
     text-transform: uppercase; }
   .subtituloFotos:hover img {
-    filter: grayscale(80%); }
+    filter: grayscale(90%); }
   .subtituloFotos:hover h2 {
     opacity: 1;
-    transform: translate3d(0%, 0%, 0);
-    transition-delay: 0.3s; }
+    transition-delay: 0.3s;
+    transform: translate3d(0%, 0%, 0); }
   .subtituloFotos:hover ::before {
     top: 30px;
     bottom: 30px;
@@ -116,10 +119,24 @@ body {
 .contacto {
   height: 36.9vh; }
 
+.btn-boton, .btn-rounded {
+  width: 100px;
+  height: 30px;
+  border: none;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; }
+  .btn-botonhover {
+    cursor: pointer; }
+
+.btn-rounded {
+  border-radius: 10px; }
+
 /*Footer*/
 footer {
-  background: black;
-  min-height: 100px; }
+  background-color: #0D0000; }
   footer p {
     color: white;
     text-align: center; }

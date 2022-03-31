@@ -8,3 +8,22 @@ $secondaryColor:white;
 $w-100:100%;
 $w-50:50%;
 $w-25:25%;
+
+$h-contenido:67.6vh;
+
+// Map Paleta de colores //
+
+$paleta: (
+    'uno': #594D42,
+    'dos': #D9BEA7,
+    'tres':#A69180,
+    'cuatro':#8C7B6C,
+    'cinco': #0D0000,
+); 
+
+// mixin//
+
+@mixin container($opacity, $delay){
+    opacity: $opacity;
+    transition-delay: $delay;
+}

@@ -1,9 +1,11 @@
 /*Header*/
-
-
-.header p{
+.header{
+  background-color: map-get($map: $paleta, $key:'cinco');
+  p{
     font-size: 0.7em;
+  }
 }
+
 
 /*menu navbar*/
 

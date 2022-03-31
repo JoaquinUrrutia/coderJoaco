@@ -3,3 +3,24 @@
 .contacto{
     height: 36.9vh;
 }
+
+//extend de boton//
+
+.btn-boton{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: $mainColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $secondaryColor;
+    &hover{
+        cursor: pointer;
+    }
+}
+
+.btn-rounded{
+    @extend .btn-boton;
+    border-radius: 10px;
+}
