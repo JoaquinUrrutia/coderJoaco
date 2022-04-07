@@ -106,6 +106,9 @@ body {
     opacity: 1;
     transition-delay: 0s; }
 
+a:link, a:visited, a:active {
+  text-decoration: none; }
+
 .contenidoFotos {
   text-align: center;
   width: 100%; }

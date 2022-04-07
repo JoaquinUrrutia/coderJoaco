@@ -59,7 +59,11 @@
       bottom: 30px;
       @include container(1, 0s);
     }
-  }    
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+}
 
 //pages// 
 
