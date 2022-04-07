@@ -2,21 +2,4 @@
 .fotos img:hover{
     transition:all .2s ease-in-out;
     filter: grayscale(80%) ;
-    cursor: pointer;
-}
-
-.tituloAnimado{
-    animation-duration: 2s;
-    animation-name: aparecer;
-    animation-iteration-count: infinite;
-}
-
-@keyframes aparecer {
-    0%{
-        opacity: 0;
-    }
-    100%{
-        opacity: 1;
-    }
-    
 }
