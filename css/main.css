@@ -106,6 +106,22 @@ body {
     opacity: 1;
     transition-delay: 0s; }
 
+.contenidoFotos {
+  text-align: center;
+  width: 100%; }
+
+.contenidoFotos h2 {
+  font-size: 1.3em; }
+
+.botonFotos {
+  display: inline-block;
+  margin-top: 5px;
+  text-decoration: none;
+  background-color: black;
+  color: #fff;
+  padding: 10px 10px;
+  border-radius: 5px; }
+
 /*Nosotros*/
 .video {
   width: 100%;
