@@ -27,3 +27,32 @@ $paleta: (
     opacity: $opacity;
     transition-delay: $delay;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:wght@100;300;500;900&display=swap');
+
+$fontMain:'Roboto', sans-serif;
+$fontSecondary: 'Montserrat', sans-serif;
+
+//variables para los textos
+$textXl: 4em;
+$textLg: 3em;
+$textMd: 2em;
+$textSm: 1em;
+
+/*animaciones o efectos*/
+.fotos img:hover{
+    transition:all .2s ease-in-out;
+    filter: grayscale(80%) ;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $fontMain;
+    background-color: $secondaryColor;
+    overflow-x: hidden;
+} 

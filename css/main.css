@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;800;900&family=Roboto:wght@100;300;500;900&display=swap");
+/*animaciones o efectos*/
+.fotos img:hover {
+  transition: all .2s ease-in-out;
+  filter: grayscale(80%); }
+
 * {
   margin: 0;
   padding: 0;
@@ -8,11 +13,6 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: white;
   overflow-x: hidden; }
-
-/*animaciones o efectos*/
-.fotos img:hover {
-  transition: all .2s ease-in-out;
-  filter: grayscale(80%); }
 
 /*Header*/
 .header {
